@@ -1,0 +1,17 @@
+{
+  "name": "cypress-cucumber-example",
+  "version": "1.0.0",
+  "description": "Example of cypress with cucumber",
+  "scripts": {
+    "test": "cypress run --spec \"**/*.feature\" --browser chrome --headed",
+    "test:all": "cypress run --spec \"**/*.features\""
+  },
+  "dependencies": {
+    "cypress": "^9.5.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-xpath": "^1.6.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}

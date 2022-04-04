@@ -1,0 +1,6 @@
+{
+  "ignoreTestFiles": "*.js",
+  "baseUrl":"https://ada-school.org/",
+  "testFiles": "**/*.{feature,features}",
+  "defaultCommandTimeout": 6000
+}
