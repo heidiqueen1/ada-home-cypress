@@ -11,7 +11,7 @@ When(`The programs section is loaded`, () => {
 
 /// <reference types="cypress-xpath" />
 Then(`I see the program with title {string}`, (title) => {
-    cy.xpath(`//h2[contains(text(),'${title}')]`).should('be.visible'); //Ejemplo de como usar xpath con cypress si llega a ser necesario.
+    cy.xpath(`//h3[contains(text(),'${title}')]`).should('be.visible'); //Ejemplo de como usar xpath con cypress si llega a ser necesario.
     const programKeyWord = title.split(/(\s+)/)[0]; //Tomamos solo la primera palabra del nombre del programa para posteriormente buscar una imagen cuyo src la contenga
-    cy.get(`img[src*='${programKeyWord.toLowerCase()}']`).should('not.be.visible');
+    cy.get(`a[href*='${programKeyWord.toLowerCase()}']`).should('not.be.visible');
 });
