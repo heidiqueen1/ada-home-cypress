@@ -12,4 +12,4 @@ npm test
 ```  
 
 # Notes
-This project includes the plugin cypress-xpath which might be used to find eleemnts using xpath instead of id, class or css.
+This project includes the plugin cypress-xpath which might be used to find elements using xpath instead of id, class or css.
