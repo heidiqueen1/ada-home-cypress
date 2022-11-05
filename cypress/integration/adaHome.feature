@@ -13,6 +13,6 @@ Feature: Ada Home Page
       | Instagram   | https://www.instagram.com/ada_school_/                    |
       | Youtube     | https://www.youtube.com/channel/UCCh2yyNLcNQRxboKtMzvFqw  |
       | LinkedIn    | https://www.linkedin.com/company/adaschool/               |
-      | Facebook    | https://www.facebook.com/AdaEducacion/                    |
+      | Facebook    | https://www.facebook.com/AdaEducacionParaTodos/                    |
 
 
